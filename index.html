@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/public/images/favicon-32x32.png" type="image/x-icon">
+    <title>FEM Result Summary</title>
+  </head>
+  <body>
+    <main>
+      <div class="result-summary">
+
+          <div class="results grid-flow" data-spacing="large">
+              <h1 class="section-title">Your Result</h1>
+              <div class="result-score">
+                  <span>76</span> of 100
+              </div>
+              <div class="grid-flow">
+                  <p class="result-rank">Great</p>
+                  <p>You scored higher than 65% of the people who have taken these tests.</p>
+              </div>
+          </div>
+
+          <div class="summary grid-flow" data-spacing="large">
+              <h2 class="section-title">Summary</h2>
+              <div class="grid-flow" id="summary-items-wrap">
+                <!-- items rendered by main.js -->
+              </div>
+              <button class="btn">Continue</button>
+          </div>
+      </div>
+  </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
